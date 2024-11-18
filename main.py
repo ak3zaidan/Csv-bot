@@ -303,7 +303,6 @@ async def fetch_messages_and_generate_csv():
                     break
                 
                 messages.append(message)
-                print(message)
             
             if not messages:  # If no messages are returned, we're done
                 break
